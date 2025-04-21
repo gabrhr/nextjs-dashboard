@@ -1,7 +1,5 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { inter } from "@/app/ui/fonts";
 
 export const metadata = {
   title: "MO-PCCO.R3 - NextJS Financial Dashboard",
